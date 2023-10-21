@@ -8,50 +8,59 @@
     <title>3Care</title>
     <link rel="shortcut icon" href="{% static '/img/logo.ico' %}" type="image/x-icon">
     <link rel="stylesheet" href="{% static '/css/styles.css' %}">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de</a>
-        </nav>
+        <div class="*">
+
         <section class="textos-header">
             <h1>Ayudemos al medioambiente</h1>
-            <h2>Informate y entretienete con nosotros</h2>
+            <h2>Informate y entretente con nosotros</h2>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C145.31,218.59 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
     </header>
     <main>
         <section class="contenedor nuestro-proyecto">
-            <h2 class="titulo">Nuestro Proyecto</h2>
+            <h2 class="titulonp">Nuestro Proyecto</h2>
             <div class="contenedor-nuestro-proyecto">
                 <img src="{% static '/img/ccimg.jpg' %}" alt="" class="imagen-about-us">
                 <div class="contenido-textos">
                     <h3><span>1</span>Conoce la realidad</h3>
-                    <p>Con el pasar de los años nosotros y el mundo nos vemos afectados</p>
+                    <p>Para nuestro equipo, es muy importante llegar al máximo de gente posible, ya que creemos que como sociedad debemos dejar de ignorar la situación actual de nuestro entorno y hacer algo al respecto. A través de esto, creamos "3Care", un sitio web donde podrás conocer más sobre esta triste realidad, siendo nuestro principal enfoque la flora a través del mundo.</p>
                     <h3><span>2</span>Te ayudamos de la mejor manera</h3>
-                    <p>textaaaaaamen</p>
+                    <p>Para llegar a todo público, creamos 2 formas de hacerte parte de este proyecto:
+                        puedes elegir el quiz para una experiencia más didáctica o bien, leer la información que tenemos en la parte inferior de nuestro sitio web.
+                    </p>
                 </div>
             </div>
         </section>   
+        <hr />
         <section class="link-juego">
             <div class="contenedor">
-                <h2 class="titulo">¿Quieres Jugar?</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="{% static '/img/Quiz.jpg' %}" alt=""><!-- Al Quiz -->
-                        <div class="hover-galeria">
-                            <img src="{% static '/img/play.png' %}" alt=""> <!-- Click Quiz-->
-                            <p>¡A JUGAR!</p>
+                <section class="titulo">
+                    <h2>¿Quieres Jugar?</h2>
+                    <h3>Para motivarte a aprender hicimos un pequeño juego para ti!</h3>
+                </section>
+                <a href="quiz.html">
+                    <div class="galeria-port">
+                        <div class="imagen-port">
+                            <img src="{% static '/img/Quiz.jpg' %}" alt="">
+                            <div class="hover-galeria">
+                                    <img src="{% static '/img/play.png' %}" alt="">
+                                <p>¡A JUGAR!</p>
+                            </div>
                         </div>
                     </div>
-                </div>  
+                </a>  
             </div>
         </section>
+        <hr />
         <div class="Sobre-nuestro-proyecto contenedor">
             <h2 class="titulo">Colaboremos entre todos</h2>
-            <p>anashe</p>
+            <p>Cuidar el medio ambiente no es solo una responsabilidad, es un regalo que podemos ofrecer a las generaciones futuras. Es una forma de respetar la vida en todas sus formas y de mantener la belleza de nuestro planeta. Trabajemos juntos para proteger y preservar este hogar que compartimos, porque el futuro de nuestro mundo depende de ello. Reducir, reciclar, reutilizar, conservar energía y apoyar prácticas sostenibles son pasos concretos que todos podemos tomar en nuestra vida diaria. La toma de decisiones conscientes, desde la elección de alimentos hasta el transporte que utilizamos, puede ayudar a reducir nuestra huella ecológica.</p>
         </div> 
     </main>
 </body>

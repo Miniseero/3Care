@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Work Sans';
+}
 .contenedor{
     padding: 60px 0;
     width: 90%;
@@ -11,8 +15,14 @@
     overflow: hidden;
 }
 .titulo{
-    color: blue;
-    font-size: 40px;
+    color: rgb(0, 108, 197);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.titulonp{
+    color: rgb(0, 108, 197);
+    font-size: 50px;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -32,7 +42,7 @@ nav{
 }
 
 nav > a{
-    color: #fff;
+    color: #ffffff;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
@@ -61,7 +71,7 @@ header .textos-header{
 
 .wave{
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
 }
 
@@ -83,7 +93,7 @@ header .textos-header{
 }
 
 .contenido-textos h3 span{
-    background: blue;
+    background: rgb(0, 108, 197);
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -103,6 +113,7 @@ header .textos-header{
  
 .link-juego{
     background: #fff;
+    border-bottom: #00F260;
 }
 .galeria-port{
     display: flex;
@@ -110,9 +121,9 @@ header .textos-header{
     flex-wrap: wrap;
 }
 .imagen-port{
-    width: 24%;
+    width: 35%;
     margin-bottom: 10px;
-    height: 150px;
+    height: 120px;
     overflow: hidden;
     position: relative;
     cursor: pointer;

@@ -17,8 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from Web import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    
+    path('quiz.html',views.quiz),
 ]
