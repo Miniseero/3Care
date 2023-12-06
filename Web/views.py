@@ -7,3 +7,5 @@ def index(request):
 
 def quiz(request):
     return render(request,'Web/quiz.html')
+def noticias(request):
+    return render(request,'Web/noticias.html')
